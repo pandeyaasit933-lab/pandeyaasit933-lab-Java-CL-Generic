@@ -1,0 +1,20 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/GenericExerciseTest.java",
+      "testCases": [
+        {
+          "methodName": "GenericStringTest",
+          "label": "Verify generic class stores and returns a String",
+          "description": "Creates a GenericExercise<String>, loads a string value, and verifies returnGenericItem() returns the expected string."
+        },
+        {
+          "methodName": "GenericIntTest",
+          "label": "Verify generic class stores and returns an Integer",
+          "description": "Creates a GenericExercise<Integer>, loads an integer value, and verifies returnGenericItem() returns the expected integer."
+        }
+      ]
+    }
+  ]
+}
